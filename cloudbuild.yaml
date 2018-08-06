@@ -1,0 +1,11 @@
+steps:
+- name: gcr.io/cloud-builders/gcloud
+  args: [
+      'beta',
+      'functions',
+      'deploy','${_ENTRYPOINT}',
+      '--source=./',
+      '--region=${_REGION}',
+      '--runtime python37',
+      '--trigger-http'
+  ]
