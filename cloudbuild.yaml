@@ -4,8 +4,8 @@ steps:
       'beta',
       'functions',
       'deploy','${_ENTRYPOINT}',
-      '--source=./',
+      '--source=/workspace/.',
       '--region=${_REGION}',
-      '--runtime python37',
+      '--runtime=python37',
       '--trigger-http'
   ]
