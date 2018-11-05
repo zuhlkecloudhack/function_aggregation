@@ -21,5 +21,5 @@ gcloud beta functions deploy get_flight_message_aggregation \
 ```
 
 ```
-curl https://europe-west1-zuhlkecloudhack.cloudfunctions.net/get_flight_message_aggregation
+curl https://europe-west1-cloud-hackathon-zeus.cloudfunctions.net/get_flight_message_aggregation
 ```
